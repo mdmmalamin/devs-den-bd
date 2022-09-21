@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Work Group | Technology & IT Solutions</title>
 
 
@@ -41,13 +41,16 @@
             </div>
         </div>
         <!-- Navigation Bar  -->
-        <nav class="flex justify-between items-center px-32 py-4 z-20">
+        <nav class="flex justify-between items-center px-32 py-4">
             <div>
                 <!-- <img src="" alt=""> -->
-                <span class="text-3xl font-bold"><a href=""><i class="fa-solid fa-bug text-4xl pr-3"></i>Work Group</a></span>
+                <span class="text-3xl font-bold"><a href="">
+                    <i class="fa-solid fa-bug text-4xl pr-3"></i>
+                    Work Group
+                </a></span>
             </div>
             <div>
-                <ul class="flex justify-between gap-12">
+                <ul class="flex gap-12">
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Pages</a></li>
@@ -65,19 +68,21 @@
                 </ul>
             </div>
         </nav>
-        <!-- horizontal line  -->
-        <!-- <div class="border-b-2 border-slate-500"></div> -->
-        <!-- banner -->
-        <section class="">
-            <img class="absolute rotate-45 top-[-30px] left-[160px] z-10" src="images/Rectangle.png" alt="rectangle element">
-            <div class="bg-cover bg-center h-[720px] relative" style="background-image: url(images/banner.png)">
+        <div class="">
+            <div class="bg-cover bg-center h-[720px] relative" style="background-image: url(images/banner.png), url(images/Rectangle.png)">
+                <div class="absolute h-[830px] w-[200px] rotate-[30deg] skew-y-[-30deg] top-[-55px] left-[150px] bg-indigo-700 opacity-25"></div>
+                <!-- <img class="fixed rotate-[30deg] top-[-390px] left-[200px]" src="images/Rectangle.png" alt="rectangle element"> -->
                 <div class="text-center p-[180px]">
                     <h3 class="underline underline-offset-8 font-semibold text-lg text-neutral-300">EXPERIENCE THE BEST IT SOLUTIONS</h3>
-                    <h1 class="font-bold text-8xl text-white w-3/6 mx-auto my-10">IT SOLUTIONS <span>&</span> SERVICES</h1>
+                    <!-- <h1 class="font-bold text-7xl text-white w-3/6 mx-auto my-10 relative">TECH SOLUTIONS <span class="absolute top-3 -right-10"><img src="images/&.png" alt=""></span>SERVICES</h1> -->
+                    <h1 class="font-bold text-7xl text-white w-3/6 mx-auto my-10 relative">TECH SOLUTIONS <img class="mx-auto py-4" src="images/&.png" alt="">SERVICES</h1>
                     <button class="text-white font-bold bg-indigo-700 border-0 px-10 py-5">LEARN MORE</button>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- horizontal line  -->
+        <!-- <div class="border-b-2 border-slate-500"></div> -->
+        <!-- banner -->
     </header>
 
     <main class="px-32">
