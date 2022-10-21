@@ -46,29 +46,28 @@
                 </div>
             </div>
         </div>
-        <section style="background-image: url(images/banner.png)">
+        <section class="bg-cover bg-center" style="background-image: url(images/banner.png)">
             
             <!-- Navigation Bar  -->
-            <nav class=" text-white bg-slate-900/40">
+            <nav class=" text-white bg-slate-900/40 relative">
                 <div class="container mx-auto flex justify-between items-center py-6">
-                    <div>
-                        <!-- <img src="" alt=""> -->
+                    <div class="order-1">
                         <span class="text-lg lg:text-3xl font-bold"><a href="/">
                             <i class="fa-solid fa-bug text-2xl lg:text-4xl pr-3"></i>
                             Work Group
                         </a></span>
                     </div>
-                    <div>
-                        <ul class="flex gap-12 font-semibold">
-                            <li class="hover:text-purple-300"><a href="/">Home</a></li>
-                            <li class="hover:text-purple-300"><a href="#service">Services</a></li>
-                            <li class="hover:text-purple-300"><a href="">Projects</a></li>
-                            <li class="hover:text-purple-300"><a href="">About</a></li>
-                            <!-- <li class="hover:text-purple-300"><a href="">Blog</a></li> -->
-                            <li class="hover:text-purple-300"><a href="">Contact</a></li>
+                    <div class="md:order-3 lg:order-2 md:absolute lg:relative">
+                        <ul class="lg:flex lg:gap-12 font-semibold bg-slate-900 lg:bg-transparent px-8 py-4 grid grid-cols-1 justify-items-center divide-y-2 lg:divide-y-0">
+                            <li class="hover:text-purple-300 py-2"><a href="/">Home</a></li>
+                            <li class="hover:text-purple-300 py-2"><a href="#service">Services</a></li>
+                            <li class="hover:text-purple-300 py-2"><a href="">Projects</a></li>
+                            <li class="hover:text-purple-300 py-2"><a href="">About</a></li>
+                            <!-- <li class="hover:text-purple-300 py-2"><a href="">Blog</a></li> -->
+                            <li class="hover:text-purple-300 py-2"><a href="">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="hidden md:block">
+                    <div class="hidden md:block lg:order-3 md:order-2">
                         <div class="flex items-center">
                         <span><i class="fa-solid fa-map-location-dot text-3xl pr-4 pt-2 border-r h-12"></i></span>
                         <ul class="pl-4">
@@ -83,11 +82,10 @@
             <!-- horizontal line  -->
             <div class="border-b-[1px] border-slate-600"></div>
             <div class="">
-                <!-- <div class="bg-cover bg-center h-[704px] relative"> -->
                 <div class="container mx-auto">
                     <div class="text-center py-8 md:py-12 lg:py-[180px]">
                         <h3 class="underline underline-offset-8 font-semibold text-sm md:text-lg text-neutral-300">EXPERIENCE THE BEST IT SOLUTIONS</h3>
-                        <h1 class="font-bold text-xl md:text-7xl text-white w-3/6 mx-auto my-10 relative">TECH SOLUTIONS <span class="text-2xl md:text-8xl text-purple-400" style="font-family: 'Architects Daughter', cursive;">&</span>
+                        <h1 class="font-bold text-xl md:text-3xl lg:text-5xl xl:text-7xl text-white w-3/6 mx-auto my-10 relative">TECH SOLUTIONS <span class="text-2xl md:text-4xl lg:text-6xl xl:text-8xl text-purple-400" style="font-family: 'Architects Daughter', cursive;">&</span>
                             <br>
                             SERVICES</h1>
                         <button class="text-white font-bold bg-indigo-700 border-0 px-2 py-1 md:px-10 md:py-5">LEARN MORE</button>
@@ -102,9 +100,9 @@
     <main class="">
         <!-- BANNER CARD -->
         <section class="container mx-auto relative">
-            <div class="flex flex-wrap gap-8 md:flex justify-center">
+            <div class="flex flex-wrap gap-8 px-8 md:flex justify-center">
                 <!-- card 1 -->
-                <div class="card rounded-none w-96 bg-white shadow-2xl top-[-50px]">
+                <div class="card rounded-none w-96 bg-white shadow-2xl md:top-[-50px]">
                     <div class="absolute top-0 right-0 h-5 w-5 bg-purple-400"></div>
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
@@ -117,7 +115,7 @@
                     </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card rounded-none w-96 bg-indigo-700 shadow-2xl lg:mx-10 top-[-50px]">
+                <div class="card rounded-none w-96 bg-indigo-700 shadow-2xl lg:mx-10 md:top-[-50px]">
                     <div class="absolute top-0 right-0 h-5 w-5 bg-purple-400"></div>
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
@@ -130,7 +128,7 @@
                     </div>
                 </div>
                 <!-- card 3 -->
-                <div class="card rounded-none w-96 bg-white shadow-2xl top-[-50px]">
+                <div class="card rounded-none w-96 bg-white shadow-2xl md:top-[-50px]">
                     <div class="absolute top-0 right-0 h-5 w-5 bg-purple-400"></div>
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
