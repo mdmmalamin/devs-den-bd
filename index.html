@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work Group | Technology & IT Solutions</title>
+    <title>DEVS DEN BD | Technology & IT Solutions</title>
 
     <!-- Google Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body class="bg-white text-black">
@@ -33,62 +35,79 @@
                 <div class="flex gap-24">
                     <div class="">
                         <span class="px-1"><i class="fa-solid fa-envelope text-purple-500"></i></span>
-                        <span class="pr-8">workgroup@company.com</span>
+                        <span class="pr-8">devs.den.bd@company.com</span>
                         <span class="px-1"><i class="fa-solid fa-clock text-purple-500"></i></span>
                         <span class="">Mon - Sat 8:00 am - 7:00 pm</span>
                     </div>
                     <div>
-                        <span><i class="fa-brands fa-twitter px-2"></i></span>
-                        <span><i class="fa-brands fa-facebook px-2"></i></span>
-                        <span><i class="fa-brands fa-linkedin px-2"></i></span>
-                        <span><i class="fa-brands fa-instagram px-2"></i></span>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter px-2"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook px-2"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin px-2"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram px-2"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <section class="bg-cover bg-center" style="background-image: url(images/banner.png)">
-            
+
             <!-- Navigation Bar  -->
-            <nav class=" text-white bg-slate-900/40 relative">
-                <div class="container mx-auto flex justify-between items-center py-6">
-                    <div class="order-1">
+            <section class="bg-indigo-900/75 text-white">
+                <nav class="container mx-auto py-5 shadow md:flex md:items-center md:justify-between">
+                    <div class="flex justify-between items-center pl-2 md:pl-0">
                         <span class="text-lg lg:text-3xl font-bold"><a href="/">
                             <i class="fa-solid fa-bug text-2xl lg:text-4xl pr-3"></i>
-                            Work Group
+                            DEVS DEN BD
                         </a></span>
+    
+                        <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+                            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                        </span>
                     </div>
-                    <div class="md:order-3 lg:order-2 md:absolute lg:relative">
-                        <ul class="lg:flex lg:gap-12 font-semibold bg-slate-900 lg:bg-transparent px-8 py-4 grid grid-cols-1 justify-items-center divide-y-2 lg:divide-y-0">
-                            <li class="hover:text-purple-300 py-2"><a href="/">Home</a></li>
-                            <li class="hover:text-purple-300 py-2"><a href="#service">Services</a></li>
-                            <li class="hover:text-purple-300 py-2"><a href="">Projects</a></li>
-                            <li class="hover:text-purple-300 py-2"><a href="">About</a></li>
-                            <!-- <li class="hover:text-purple-300 py-2"><a href="">Blog</a></li> -->
-                            <li class="hover:text-purple-300 py-2"><a href="">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="hidden md:block lg:order-3 md:order-2">
+    
+                    <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-indigo-900/75 md:bg-transparent">
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-purple-400 duration-500">HOME</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-purple-400 duration-500">SERVICE</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-purple-400 duration-500">PROJECT</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-purple-400 duration-500">ABOUT</a>
+                        </li>
+                        <li class="mx-4 my-6 md:my-0">
+                            <a href="#" class="text-xl hover:text-purple-400 duration-500">CONTACT</a>
+                        </li>
+                    </ul>
+    
+                    <div class="hidden lg:block">
                         <div class="flex items-center">
-                        <span><i class="fa-solid fa-map-location-dot text-3xl pr-4 pt-2 border-r h-12"></i></span>
-                        <ul class="pl-4">
-                            <li><small class="text-slate-400">Call Anytime</small></li>
-                            <li>+880 17777 00000</li>
-                        </ul>
+                            <span><i class="fa-solid fa-map-location-dot text-3xl pr-4 pt-2 border-r h-12"></i></span>
+                            <ul class="pl-4">
+                                <li><small class="text-slate-400">Call Anytime</small></li>
+                                <li>+880 17777 00000</li>
+                            </ul>
+                        </div>
                     </div>
-                    </div>
-                    
-                </div>
-            </nav>
+                </nav>
+            </section>
             <!-- horizontal line  -->
             <div class="border-b-[1px] border-slate-600"></div>
             <div class="">
                 <div class="container mx-auto">
                     <div class="text-center py-8 md:py-12 lg:py-[180px]">
-                        <h3 class="underline underline-offset-8 font-semibold text-sm md:text-lg text-neutral-300">EXPERIENCE THE BEST IT SOLUTIONS</h3>
-                        <h1 class="font-bold text-xl md:text-3xl lg:text-5xl xl:text-7xl text-white w-3/6 mx-auto my-10 relative">TECH SOLUTIONS <span class="text-2xl md:text-4xl lg:text-6xl xl:text-8xl text-purple-400" style="font-family: 'Architects Daughter', cursive;">&</span>
+                        <h3 class="underline underline-offset-8 font-semibold text-sm md:text-lg text-neutral-300">
+                            EXPERIENCE THE BEST IT SOLUTIONS</h3>
+                        <h1
+                            class="font-bold text-xl md:text-3xl lg:text-5xl xl:text-7xl text-white w-3/6 mx-auto my-10 relative">
+                            TECH SOLUTIONS <span class="text-2xl md:text-4xl lg:text-6xl xl:text-8xl text-purple-400"
+                                style="font-family: 'Architects Daughter', cursive;">&</span>
                             <br>
                             SERVICES</h1>
-                        <button class="text-white font-bold bg-indigo-700 border-0 px-2 py-1 md:px-10 md:py-5">LEARN MORE</button>
+                        <button class="text-white font-bold bg-indigo-700 border-0 px-2 py-1 md:px-10 md:py-5">LEARN
+                            MORE</button>
                     </div>
                 </div>
             </div>
@@ -99,7 +118,7 @@
 
     <main class="">
         <!-- BANNER CARD -->
-        <section class="container mx-auto relative">
+        <section class="container mx-auto py-24 md:py-0 md:pb-24 relative">
             <div class="flex flex-wrap gap-8 px-8 md:flex justify-center">
                 <!-- card 1 -->
                 <div class="card rounded-none w-96 bg-white shadow-2xl md:top-[-50px]">
@@ -107,7 +126,8 @@
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
                             <h1 class="card-title font-bold text-2xl">BACKUP AND RECOVERY</h1>
-                            <p class="py-4 text-slate-500 font-semibold">When an unknown printer took a galley type book.</p>
+                            <p class="py-4 text-slate-500 font-semibold">When an unknown printer took a galley type
+                                book.</p>
                         </div>
                         <div class="card-actions justify-end text-6xl text-slate-300 items-end">
                             <span>01</span>
@@ -120,7 +140,8 @@
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
                             <h1 class="card-title font-bold text-2xl text-white">INTERNET & CYBER SECURITY</h1>
-                            <p class="py-4 text-slate-300 font-semibold">When an unknown printer took a galley type book.</p>
+                            <p class="py-4 text-slate-300 font-semibold">When an unknown printer took a galley type
+                                book.</p>
                         </div>
                         <div class="card-actions justify-end text-6xl text-slate-300 items-end">
                             <span>02</span>
@@ -133,7 +154,8 @@
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
                             <h1 class="card-title font-bold text-2xl">CLOUD BASED SERVICES</h1>
-                            <p class="py-4 text-slate-500 font-semibold">When an unknown printer took a galley type book.</p>
+                            <p class="py-4 text-slate-500 font-semibold">When an unknown printer took a galley type
+                                book.</p>
                         </div>
                         <div class="card-actions justify-end text-6xl text-slate-300 items-end">
                             <span>03</span>
@@ -148,21 +170,26 @@
         ------------------------------------>
         <section id="service" class="bg-slate-900 text-white py-24">
             <div class="container mx-auto">
-                <h2 class="font-bold text-indigo-600 px-10"><i class="fa-solid fa-minus"></i> What We're Offering</h2>
-                <div class="grid grid-cols-1 lg:grid-cols-2 justify-center pb-36">
-                    <h1 class="font-bold text-5xl px-10 pb-8">Dealing in all Professional IT Services</h1>
-                    <p class="px-10">There are many variations of passages of available but majority have suffered alteration in some form, by humou or randomised words which don't look ever slightly believable.</p>
+                <h2 class="font-bold text-indigo-600 px-4 md:px-0"><i class="fa-solid fa-minus"></i> What We're Offering</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 justify-center pb-36 px-4 md:px-0">
+                    <h1 class="font-bold text-5xl pb-8">Dealing in all Professional IT Services</h1>
+                    <p class="text-xl pb-8">There are many variations of passages of available but majority have suffered
+                        alteration in some form, by humou or randomised words which don't look ever slightly believable.
+                    </p>
                 </div>
-    
+
                 <!-- SERVICES CARD -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between justify-items-center">
                     <a href="#service">
                         <div class="relative mb-24 w-72">
                             <div class="bg-slate-800 hover:bg-white hover:text-black text-center pt-20 pb-10 px-6">
                                 <h2 class="text-2xl font-bold">Security System</h2>
-                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
+                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur,
+                                    necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
+                                    <i
+                                        class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -171,9 +198,12 @@
                         <div class="relative mb-24 w-72">
                             <div class="bg-slate-800 hover:bg-white hover:text-black text-center pt-20 pb-10 px-6">
                                 <h2 class="text-2xl font-bold">Security System</h2>
-                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
+                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur,
+                                    necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
+                                    <i
+                                        class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -182,9 +212,12 @@
                         <div class="relative mb-24 w-72">
                             <div class="bg-slate-800 hover:bg-white hover:text-black text-center pt-20 pb-10 px-6">
                                 <h2 class="text-2xl font-bold">Security System</h2>
-                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
+                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur,
+                                    necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
+                                    <i
+                                        class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -193,9 +226,12 @@
                         <div class="relative mb-24 w-72">
                             <div class="bg-slate-800 hover:bg-white hover:text-black text-center pt-20 pb-10 px-6">
                                 <h2 class="text-2xl font-bold">Security System</h2>
-                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
+                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur,
+                                    necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
+                                    <i
+                                        class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -204,9 +240,12 @@
                         <div class="relative mb-24 w-72">
                             <div class="bg-slate-800 hover:bg-white hover:text-black text-center pt-20 pb-10 px-6">
                                 <h2 class="text-2xl font-bold">Security System</h2>
-                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
+                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur,
+                                    necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
+                                    <i
+                                        class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -215,9 +254,12 @@
                         <div class="relative mb-24 w-72">
                             <div class="bg-slate-800 hover:bg-white hover:text-black text-center pt-20 pb-10 px-6">
                                 <h2 class="text-2xl font-bold">Security System</h2>
-                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
+                                <p class="text-slate-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur,
+                                    necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
+                                    <i
+                                        class="fa-solid fa-bug text-6xl text-white w-32 h-32 bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -229,11 +271,11 @@
         <!----------------------------------
             OUR TEAM
         ------------------------------------>
-        <section id="our-team" class="container mx-auto py-24 lg:px-32">
-            <h2 class="font-bold text-indigo-600 px-10"><i class="fa-solid fa-minus"></i> Our Expert People</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center gap-x-24">
-                <h1 class="font-bold text-5xl px-10 pb-8">Meet Our Professional Team Members</h1>
-                <p class="px-10">There are many variations of passages of available but majority have suffered alteration in some form, by humou or randomised words which don't look ever slightly believable.</p>
+        <section id="our-team" class="container mx-auto py-24">
+            <h2 class="font-bold text-indigo-600 px-4 md:px-0"><i class="fa-solid fa-minus"></i> Our Expert People</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center gap-x-24 pb-12 px-4 md:px-0">
+                <h1 class="font-bold text-5xl pb-8">Meet Our Professional Team Members</h1>
+                <p class="text-xl pb-8">There are many variations of passages of available but majority have suffered alteration in some form, by humou or randomised words which don't look ever slightly believable.</p>
             </div>
             <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between justify-items-center">
                 <section class="w-fit p-4 border relative">
@@ -246,12 +288,21 @@
                             <p class="font-semibold text-slate-400">Developer</p>
                         </div>
                         <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
+                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
+                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
                             <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
+                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i
+                                            class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i
+                                            class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -266,12 +317,21 @@
                             <p class="font-semibold text-slate-400">Developer</p>
                         </div>
                         <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
+                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
+                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
                             <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
+                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i
+                                            class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i
+                                            class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -286,12 +346,21 @@
                             <p class="font-semibold text-slate-400">Developer</p>
                         </div>
                         <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
+                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
+                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
                             <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
+                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i
+                                            class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i
+                                            class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -306,12 +375,21 @@
                             <p class="font-semibold text-slate-400">Developer</p>
                         </div>
                         <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
+                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
+                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
                             <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
+                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i
+                                            class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i
+                                            class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -326,12 +404,21 @@
                             <p class="font-semibold text-slate-400">Developer</p>
                         </div>
                         <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
+                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
+                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
                             <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
-                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a></li>
+                                <li><a href="https://twitter.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/mdmmalamin" target="_blank"><i
+                                            class="fa-brands fa-facebook text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank"><i
+                                            class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank"><i
+                                            class="fa-brands fa-instagram text-2xl h-8 w-4 rounded-full mx-auto"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -348,17 +435,22 @@
                     <span class="text-3xl font-bold text-white">
                         <a href="/">
                             <i class="fa-solid fa-bug text-4xl pr-3 pb-4"></i>
-                            Work Group
+                            DEVS DEN BD
                         </a>
                     </span>
-                <div class="border-b-2 border-purple-500 w-12 mb-4"></div>
+                    <div class="border-b-2 border-purple-500 w-12 mb-4"></div>
                 </div>
-                <p><small>We work with a passion of taking challenges and creating new ones in advertising sector.</small></p>
+                <p><small>We work with a passion of taking challenges and creating new ones in advertising
+                        sector.</small></p>
                 <div class="pt-4">
-                    <span><a href=""><i class="fa-brands fa-twitter h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
-                    <span><a href=""><i class="fa-brands fa-facebook h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
-                    <span><a href=""><i class="fa-brands fa-linkedin h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
-                    <span><a href=""><i class="fa-brands fa-instagram h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
+                    <span><a href=""><i
+                                class="fa-brands fa-twitter h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
+                    <span><a href=""><i
+                                class="fa-brands fa-facebook h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
+                    <span><a href=""><i
+                                class="fa-brands fa-linkedin h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
+                    <span><a href=""><i
+                                class="fa-brands fa-instagram h-8 w-8 bg-slate-700 rounded-full p-2 mr-3"></i></a></span>
                 </div>
             </section>
             <section>
@@ -377,8 +469,9 @@
                 <div class="border-b-2 border-purple-500 w-12 mb-4"></div>
                 <p>Signup for our latest news & articles. We
                     <br> won't give you spam mails.</p>
-                <form action="mailto:workgroup@company.com" method="post" enctype="text/plain">
-                    <input type="email" name="email" id="email" placeholder="Email Address" class="mt-4 px-3 py-2.5 w-4/6">
+                <form action="mailto:devs.den.bd@company.com" method="post" enctype="text/plain">
+                    <input type="email" name="email" id="email" placeholder="Email Address"
+                        class="mt-4 px-3 py-2.5 w-4/6">
                     <button type="submit"><i class="fa-solid fa-paper-plane bg-slate-700 border-none p-3.5"></i></button>
                 </form>
             </section>
@@ -386,15 +479,23 @@
                 <h2 class="text-2xl font-semibold pb-4 text-white">Contact</h2>
                 <div class="border-b-2 border-purple-500 w-12 mb-4"></div>
                 <p><i class="fa-sharp fa-solid fa-phone-volume text-purple-500"></i> +880 17777 00000</p>
-                <p><i class="fa-solid fa-envelope text-purple-500"></i> workgroup@company.com</p>
+                <p><i class="fa-solid fa-envelope text-purple-500"></i> devs.den.bd@company.com</p>
                 <p><i class="fa-solid fa-location-dot text-purple-500"></i> Answer camp, Boro Bazar, Mirpur 1</p>
             </section>
         </section>
-        <p class="text-center py-10 px-4">Copyright © Work Group 2022 All Right Reserved</p>
+        <p class="text-center py-10 px-4">Copyright © DEVS DEN BD 2022 All Right Reserved</p>
     </footer>
 
     <!-- Flowbite tailwindcss components -->
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
+    <!-- JAVA SCRIPT -->
+    <script>
+        function Menu(e){
+            let list = document.querySelector('ul');
+            e.name === 'menu' ? (e.name = "close",list.classList.add('top-[75px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[75px]'),list.classList.remove('opacity-100'))
+        }
+        </script>
 </body>
 
 </html>
