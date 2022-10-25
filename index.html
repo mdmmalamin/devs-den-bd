@@ -47,11 +47,11 @@
                 </div>
             </div>
         </div>
-        <section class="bg-cover bg-center h-[75vh]" style="background-image: url(assets/bg-banner.png)">
+        <section class="bg-no-repeat bg-cover min-h-[75vh]" style="background-image: url(assets/bg-banner.png)">
 
             <!------- Navigation Bar ------->
             <section class="bg-indigo-700/90 text-white">
-                <nav class="container mx-auto py-4 shadow md:flex md:items-center md:justify-between">
+                <nav class="container mx-auto py-3.5 shadow md:flex md:items-center md:justify-between">
                     <div class="flex justify-between items-center basis-1/3 pl-2 md:pl-0">
                             <a href="#">
                                 <img src="./assets/logo2.png" alt="Devs Den BD Logo">
@@ -62,7 +62,7 @@
                         </span>
                     </div>
     
-                    <ul class="md:flex md:items-center basis-2/3 z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-indigo-700/75 md:bg-transparent">
+                    <ul class="md:flex md:items-center basis-2/3 z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-indigo-700/75 md:bg-transparent">
                         <li class="flex-none mx-4 my-6 md:my-0">
                             <a href="/" class="font-semibold hover:text-purple-400 duration-500">HOME</a>
                         </li>
@@ -80,12 +80,15 @@
                         </li>
 
                         <div class="flex-auto">
-                            <div class="flex md:justify-end mx-4 md:mx-0">
+                            <div class="flex md:justify-end items-center mx-4 my-6 md:m-0">
                                 <a href="https://github.com/DevsDenBD" target="_blank">
-                                    <i class="fa-brands fa-github text-4xl pr-4 pt-2 border-r h-12"></i>
+                                    <i class="fa-brands fa-github text-2xl pr-4 md:border-r h-8"></i>
                                 </a>
                                 <a href="https://join.slack.com/t/devsdenbd/shared_invite/zt-1iju8b5f5-ZRvxwnuPiBbz4MkuTbJO8A" target="_blank">
-                                    <i class="fa-brands fa-slack text-4xl pl-4 pt-2"></i>
+                                    <i class="fa-brands fa-slack text-2xl px-4 md:pr-0"></i>
+                                </a>
+                                <a href="#email">
+                                    <i class="fa-solid fa-envelope md:hidden text-2xl pl-4 md:border-l h-8 md:h-12"></i>
                                 </a>
                                 <!-- <ul class="pl-4">
                                     <li><small class="text-slate-300">Call Anytime</small></li>
@@ -94,7 +97,6 @@
                             </div>
                         </div>
                     </ul>
-    
                 </nav>
             </section>
             <!------- horizontal line ------->
@@ -127,7 +129,7 @@
                     <div class="absolute top-0 right-0 h-5 w-5 bg-purple-400"></div>
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
-                            <h1 class="card-title font-bold text-2xl group-hover:text-white">BACKUP AND RECOVERY</h1>
+                            <h1 class="card-title font-bold text-2xl group-hover:text-white">SOFTWARE DEVELOPMENT</h1>
                             <p class="py-4 text-slate-700 group-hover:text-slate-300 font-semibold">When an unknown printer took a galley type
                                 book.</p>
                         </div>
@@ -141,7 +143,7 @@
                     <div class="absolute top-0 right-0 h-5 w-5 bg-purple-400"></div>
                     <div class="card-body relative grid grid-cols-4">
                         <div class="col-span-3">
-                            <h1 class="card-title font-bold text-2xl group-hover:text-white">INTERNET & CYBER SECURITY</h1>
+                            <h1 class="card-title font-bold text-2xl group-hover:text-white">SOFTWARE TESTING</h1>
                             <p class="py-4 text-slate-700 group-hover:text-slate-300 font-semibold">When an unknown printer took a galley type
                                 book.</p>
                         </div>
@@ -172,8 +174,8 @@
         ------------------------------------>
         <section id="service" class="bg-slate-800 text-white py-12">
             <div class="container mx-auto">
-                <h2 class="font-bold text-2xl md:text-3xl text-indigo-600 px-4 md:px-0 py-2"><i class="fa-solid fa-minus"></i> Our Expert People</h2>
-                <div class="grid grid-cols-1 lg:grid-cols-2 justify-center md:gap-48 pb-12 px-4 md:px-0">
+                <h2 class="font-bold text-2xl md:text-3xl text-indigo-600 px-4 md:px-0 py-2"><i class="fa-solid fa-minus"></i> What We're Offering to Our Clients</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-2 justify-center lg:gap-48 pb-12 px-4 md:px-0">
                     <h1 class="font-bold text-5xl pb-8">Dealing in all Professional IT Services</h1>
                     <p class="text-justify pb-8">There are many variations of passages of available but majority have suffered alteration in some form, by humou or randomised words which don't look ever slightly believable.</p>
                 </div>
@@ -186,6 +188,7 @@
                                 <h2 class="text-2xl font-bold text-white group-hover:text-black pb-2">Security System</h2>
                                 <p class="text-slate-400 group-hover:text-slate-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
+                                    <!-- <i class="bg-slate-900 group-hover:bg-indigo-700 rounded-full"><img class="w-16" src="./assets/4169215.png" alt=""></i> -->
                                     <i class="fa-solid fa-bug text-6xl text-purple-500 group-hover:text-white w-32 h-32 bg-slate-900 group-hover:bg-indigo-700 p-8 rounded-full"></i>
                                 </div>
                             </div>
@@ -219,7 +222,7 @@
                                 <h2 class="text-2xl font-bold text-white group-hover:text-black pb-2">Security System</h2>
                                 <p class="text-slate-400 group-hover:text-slate-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, necessitatibus. amet, consectetur adipisicing elit. Consequuntur, necessitatibus</p>
                                 <div class="mx-14 text-center absolute top-[-64px]">
-                                    <i class="fa-solid fa-bug text-6xl text-purple-500 group-hover:text-white w-32 h-32 bg-slate-900 group-hover:bg-indigo-700 p-8 rounded-full"></i>
+                                    <i class="fa-solid fa-cloud text-6xl text-purple-500 group-hover:text-white w-32 h-32 bg-slate-900 group-hover:bg-indigo-700 p-7 rounded-full"></i>
                                 </div>
                             </div>
                         </div>
@@ -233,98 +236,155 @@
         ------------------------------------>
         <section id="our-team" class="container mx-auto py-12">
             <h2 class="font-bold text-2xl md:text-3xl text-indigo-600 px-4 md:px-0 py-2"><i class="fa-solid fa-minus"></i> Our Expert People</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center md:gap-48 pb-12 px-4 md:px-0">
+            <div class="grid grid-cols-1 lg:grid-cols-2 justify-center lg:gap-48 pb-12 px-4 md:px-0">
                 <h1 class="font-bold text-5xl pb-8">Meet Our Professional Team Members</h1>
                 <p class="text-justify pb-8">There are many variations of passages of available but majority have suffered alteration in some form, by humou or randomised words which don't look ever slightly believable.</p>
             </div>
             <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between justify-items-center">
-                <!--  Md. Mahbubur Rahman (TOM) -->
-                <section class="w-fit p-4 border relative">
-                    <div class="w-72">
-                        <img class="" src="assets/team/mahbubur-rahman.jpg" alt="Developer Amin">
+                <!-------  Md. Mahbubur Rahman (TOM) ------->
+                <section class="w-72 p-4 border relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="assets/team/mahbubur-rahman.jpg" alt="Md. Mahbubur Rahman (TOM)">
                     </div>
-                    <div class="flex justify-between mt-4">
-                        <div>
-                            <h2 class="font-bold">Md. Mahbubur Rahman (TOM)</h2>
-                            <p class="font-semibold text-slate-400">SQA Engineer</p>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Md. Mahbubur Rahman (TOM)</h2>
+                            <p class="text-slate-500">SQA Engineer</p>
                         </div>
-                        <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
-                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
-                            <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/tom_sqa" target="_blank">
-                                        <i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
-                                        <i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://github.com/Mahbub091" target="_blank">
-                                        <i class="fa-brands fa-github text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="https://github.com/Mahbub091" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <a href="https://twitter.com/tom_sqa" target="_blank">
+                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            </a>
                         </div>
                     </div>
                 </section>
-                <!-- Talha Bin Ashraf -->
-                <section class="w-fit p-4 border relative">
-                    <div class="w-72">
-                        <img class="" src="assets/team/talha-bin-ashraf.jpg" alt="Developer Amin">
+                <!------- Md Shahnewaz Zaman ------->
+                <section class="w-72 p-4 border relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="assets/team/shahnewaz-zaman.png" alt="Md Shahnewaz Zaman">
                     </div>
-                    <div class="flex justify-between mt-4">
-                        <div>
-                            <h2 class="font-bold">Talha Bin Ashraf</h2>
-                            <p class="font-semibold text-slate-400">SQA Engineer</p>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Md Shahnewaz Zaman</h2>
+                            <p class="text-slate-500">Tech Lead</p>
                         </div>
-                        <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
-                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
-                            <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/talhabinashraf" target="_blank">
-                                        <i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/in/talha-sqa-engineer/" target="_blank">
-                                        <i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://github.com/TalhaBinAshraf1" target="_blank">
-                                        <i class="fa-brands fa-github text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="https://github.com/msz5213" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/zamanmd/" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <!-- <a href="https://twitter.com/" target="_blank">
+                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            </a> -->
+                            <a href="https://msz5213.github.io/mdzamanportfolio/" target="_blank">
+                                <i class="fa-solid fa-globe text-2xl h-8 rounded-full mx-3" style="color:#000000;"></i>
+                            </a>
                         </div>
                     </div>
                 </section>
-                <!-- Md Moinur Mahbub -->
-                <section class="w-fit p-4 border relative">
-                    <div class="w-72">
-                        <img class="" src="assets/team/amin.jpg" alt="Developer Amin">
+                <!------- Talha Bin Ashraf ------->
+                <section class="w-72 p-4 border relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="assets/team/talha-bin-ashraf.jpg" alt="Developer Amin">
                     </div>
-                    <div class="flex justify-between mt-4">
-                        <div>
-                            <h2 class="font-bold">Md Moinur Mahbub</h2>
-                            <p class="font-semibold text-slate-400">Web Developer</p>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Talha Bin Ashraf</h2>
+                            <p class="text-slate-500">SQA Engineer</p>
                         </div>
-                        <div class="dropdown dropdown-top dropdown-end">
-                            <label tabindex="0" class="btn bg-indigo-600 border-none rounded-none"><i
-                                    class="fa-sharp fa-solid fa-share-nodes text-lg text-white"></i></label>
-                            <ul tabindex="0" class="dropdown-content menu bg-white">
-                                <li><a href="https://twitter.com/mdmmalamin" target="_blank">
-                                        <i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/in/mdmmalamin/" target="_blank">
-                                        <i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                                <li><a href="https://www.instagram.com/mdmmal_amin/" target="_blank">
-                                        <i class="fa-brands fa-github text-2xl h-8 w-4 rounded-full mx-auto"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="https://github.com/TalhaBinAshraf1" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 w-4 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 w-4 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <a href="https://twitter.com/talhabinashraf" target="_blank">
+                                <i class="fa-brands fa-twitter text-2xl h-8 w-4 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!------- Md Moinur Mahbub ------->
+                <section class="w-72 p-4 border relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="assets/team/amin.jpg" alt="Md Moinur Mahbub Al Amin image">
+                    </div>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Md Moinur Mahbub Al Amin</h2>
+                            <p class="text-slate-500">Junior Web Developer</p>
+                        </div>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="https://github.com/Mahbub091" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <a href="https://twitter.com/tom_sqa" target="_blank">
+                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!------- Md Moinur Mahbub ------->
+                <section class="w-72 p-4 border relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="assets/team/amin.jpg" alt="Md Moinur Mahbub Al Amin image">
+                    </div>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Md Moinur Mahbub Al Amin</h2>
+                            <p class="text-slate-500">Junior Web Developer</p>
+                        </div>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="https://github.com/Mahbub091" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <a href="https://twitter.com/tom_sqa" target="_blank">
+                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!------- Md Moinur Mahbub ------->
+                <section class="w-72 p-4 border relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="assets/team/amin.jpg" alt="Md Moinur Mahbub Al Amin image">
+                    </div>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Md Moinur Mahbub Al Amin</h2>
+                            <p class="text-slate-500">Junior Web Developer</p>
+                        </div>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="https://github.com/Mahbub091" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <a href="https://twitter.com/tom_sqa" target="_blank">
+                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -333,7 +393,7 @@
     </main>
 
     <!------- DEVS.DEN.BD FOOTER ------->
-    <footer id="contact" class="bg-slate-900 text-slate-400 py-12">
+    <footer id="footer" class="bg-slate-900 text-slate-400 py-12">
         <section class="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12 px-4 md:px-0 justify-between">
             <section class="md:col-span-3 lg:col-auto">
                 <div>
@@ -367,10 +427,9 @@
                 </ul>
             </section>
             <section>
-                <h2 class="text-2xl font-semibold pb-4 text-white">Newsletter</h2>
+                <h2 class="text-2xl font-semibold pb-4 text-white">Queries</h2>
                 <div class="border-b-2 border-purple-500 w-12 mb-4"></div>
-                <p>Signup for our latest news & articles. We
-                    <br> won't give you spam mails.</p>
+                <p class="text-justify">We would love to here about your ideas and discuss how we can help you to reach your ultimate goal. Please send us email to get in touch and possible discussion schedule.</p>
                 <form action="mailto:devsdenbd2022@gmail.com" method="post" enctype="text/plain">
                     <input type="email" name="email" id="email" placeholder="Email Address"
                         class="mt-4 px-3 py-2.5 w-4/6">
@@ -378,7 +437,7 @@
                 </form>
             </section>
             <section>
-                <h2 class="text-2xl font-semibold pb-4 text-white">Contact</h2>
+                <h2 id="contact" class="text-2xl font-semibold pb-4 text-white">Contact</h2>
                 <div class="border-b-2 border-purple-500 w-12 mb-4"></div>
                 <p><i class="fa-sharp fa-solid fa-phone-volume text-purple-500"></i> +880 17777 00000</p>
                 <p><i class="fa-solid fa-envelope text-purple-500"></i> devsdenbd2022@gmail.com</p>
@@ -396,7 +455,7 @@
     <script>
         function Menu(e){
             let list = document.querySelector('ul');
-            e.name === 'menu' ? (e.name = "close",list.classList.add('top-[69px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[69px]'),list.classList.remove('opacity-100'))
+            e.name === 'menu' ? (e.name = "close",list.classList.add('top-[65px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[65px]'),list.classList.remove('opacity-100'))
         }
         </script>
 </body>
