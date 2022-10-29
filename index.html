@@ -29,7 +29,7 @@
         <!------- some simple info here ------->
         <div class="bg-slate-900 text-slate-400 hidden lg:block">
             <div class="container mx-auto flex justify-between py-2">
-                <p>Welcome to IT Solutions & Services</p>
+                <p class="font-semibold">Welcome to Devs Den BD</p>
                 <div class="flex gap-24">
                     <div>
                         <span class="px-1"><i class="fa-solid fa-envelope text-purple-500"></i></span>
@@ -64,7 +64,7 @@
                     <!------- Nav Menu Bar ------->
                     <ul class="md:flex md:items-center basis-2/3 z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 bg-indigo-700/75 md:bg-transparent">
                         <li class="flex-none mx-4 my-6 md:my-0">
-                            <a href="/" class="font-semibold hover:text-purple-400 duration-500">HOME</a>
+                            <a href="#" class="font-semibold hover:text-purple-400 duration-500">HOME</a>
                         </li>
                         <li class="flex-none mx-4 my-6 md:my-0">
                             <a href="#service" class="font-semibold hover:text-purple-400 duration-500">SERVICES</a>
@@ -72,21 +72,30 @@
                         <!-- <li class="flex-none mx-4 my-6 md:my-0">
                             <a href="#project" class="font-semibold hover:text-purple-400 duration-500">PROJECT</a>
                         </li> -->
-                        <li class="flex-none mx-4 my-6 md:my-0">
+                        <!-- <li class="flex-none mx-4 my-6 md:my-0">
                             <a href="#about" class="font-semibold hover:text-purple-400 duration-500">ABOUT</a>
-                        </li>
+                        </li> -->
                         <li class="flex-none mx-4 my-6 md:my-0">
                             <a href="#contact" class="font-semibold hover:text-purple-400 duration-500">CONTACT US</a>
                         </li>
                         <!------- GitHub | Slack | Email ------->
                         <div class="flex-auto">
                             <div class="flex md:justify-end items-center mx-4 my-6 md:m-0">
-                                <a href="https://github.com/DevsDenBD" target="_blank">
-                                    <i class="fa-brands fa-github text-2xl pr-4 md:border-r h-8"></i>
-                                </a>
-                                <a href="https://join.slack.com/t/devsdenbd/shared_invite/zt-1iju8b5f5-ZRvxwnuPiBbz4MkuTbJO8A" target="_blank">
-                                    <i class="fa-brands fa-slack text-2xl px-4 md:pr-0"></i>
-                                </a>
+                                <div class="tooltip hover:tooltip-open tooltip-bottom" data-tip="Book Your Meeting">
+                                    <a href="https://calendly.com/devsdenbd/meeting-at-google-meet" target="_blank" >
+                                        <i class="fa-regular fa-calendar text-2xl pr-4 md:border-r h-8"></i>
+                                    </a>
+                                </div>
+                                <div class="tooltip hover:tooltip-open tooltip-bottom" data-tip="Our GitHub">
+                                    <a href="https://github.com/DevsDenBD" target="_blank">
+                                        <i class="fa-brands fa-github text-2xl px-4 md:border-r  h-8"></i>
+                                    </a>
+                                </div>
+                                <div class="tooltip hover:tooltip-open tooltip-bottom" data-tip="Join Our Slack">
+                                    <a href="https://join.slack.com/t/devsdenbd/shared_invite/zt-1iju8b5f5-ZRvxwnuPiBbz4MkuTbJO8A" target="_blank">
+                                        <i class="fa-brands fa-slack text-2xl px-4 md:pr-0"></i>
+                                    </a>
+                                </div>
                                 <a href="#email">
                                     <i class="fa-solid fa-envelope md:hidden text-2xl pl-4 md:border-l h-8 md:h-12"></i>
                                 </a>
@@ -263,7 +272,7 @@
             </div>
             <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-between justify-items-center">
                 <!------- Md Shahnewaz Zaman ------->
-                <section class="w-72 p-4 border relative">
+                <section class="w-72 p-4 border-2 bg-gradient-to-r from-zinc-100 to-indigo-100  hover:from-indigo-100 hover:to-purple-100 relative">
                     <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
                         <img class="w-48 p-1 rounded-full" src="assets/team/shahnewaz-zaman.jpg" alt="Md Shahnewaz Zaman">
                     </div>
@@ -290,14 +299,15 @@
                     </div>
                 </section>
                 <!-------  Md. Mahbubur Rahman (TOM) ------->
-                <section class="w-72 p-4 border relative">
+                <section class="w-72 p-4 border-2 bg-gradient-to-r from-zinc-100 to-indigo-100  hover:from-indigo-100 hover:to-purple-100 relative">
                     <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
                         <img class="w-48 p-1 rounded-full" src="assets/team/mahbubur-rahman.jpg" alt="Md. Mahbubur Rahman (TOM)">
                     </div>
                     <div class="my-4">
                         <div class="text-center">
                             <h2 class="font-semibold">Md. Mahbubur Rahman (TOM)</h2>
-                            <p class="text-slate-500">SQA Engineer</p>
+                            <p class="text-slate-500">SQA Engineer </p>
+                            <p class="font-semibold"><small>Specialized in Automation</small></p>
                         </div>
                         <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
                         <div class="text-center my-4">
@@ -314,14 +324,15 @@
                     </div>
                 </section>
                 <!------- Talha Bin Ashraf ------->
-                <section class="w-72 p-4 border relative">
+                <section class="w-72 p-4 border-2 bg-gradient-to-r from-zinc-100 to-indigo-100  hover:from-indigo-100 hover:to-purple-100 relative">
                     <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
                         <img class="w-48 p-1 rounded-full" src="assets/team/talha-bin-ashraf.jpg" alt="Developer Amin">
                     </div>
                     <div class="my-4">
                         <div class="text-center">
                             <h2 class="font-semibold">Talha Bin Ashraf</h2>
-                            <p class="text-slate-500">SQA Engineer</p>
+                            <p class="text-slate-500">SQA Engineer </p>
+                            <p class="font-semibold"><small>Specialized in Automation</small></p>
                         </div>
                         <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
                         <div class="text-center my-4">
@@ -337,63 +348,65 @@
                         </div>
                     </div>
                 </section>
-                <!------- Md Moinur Mahbub ------->
-                <section class="w-72 p-4 border relative">
-                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
-                        <img class="w-48 p-1 rounded-full" src="assets/team/amin.jpg" alt="Md Moinur Mahbub Al Amin image">
+                <!------- Muhibullah ------->
+                <section class="w-72 p-4 border-2 bg-gradient-to-r from-zinc-100 to-indigo-100  hover:from-indigo-100 hover:to-purple-100 relative">
+                    <div class="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 p-1 rounded-full" src="" alt="Muhibullah">
                     </div>
                     <div class="my-4">
                         <div class="text-center">
-                            <h2 class="font-semibold">Md Moinur Mahbub Al Amin</h2>
-                            <p class="text-slate-500">Junior Web Developer</p>
+                            <h2 class="font-semibold">Muhibullah</h2>
+                            <p class="text-slate-500">Senior Software Developer </p>
+                            <p class="font-semibold"><small>Front-End</small></p>
                         </div>
                         <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
                         <div class="text-center my-4">
-                            <a href="https://github.com/Mahbub091" target="_blank">
+                            <a href="https://github.com/muhib-dev" target="_blank">
                                 <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
+                            <a href="" target="_blank">
                                 <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
                             </a>
-                            <a href="https://twitter.com/tom_sqa" target="_blank">
-                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
+                            <a href="https://docs.google.com/document/d/1MWCXVYZEl6aXu4zZst2fEW9qLHkViZyPUMhvJt99Xf0/edit" target="_blank">
+                                <i class="fa-solid fa-globe text-2xl h-8 rounded-full mx-3" style="color:#000000;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!------- Shahed Al Mahmud ------->
+                <section class="w-72 p-4 border-2 bg-gradient-to-r from-zinc-100 to-indigo-100  hover:from-indigo-100 hover:to-purple-100 relative">
+                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
+                        <img class="w-48 h-48 p-1 rounded-full" src="" alt="Shahed Al Mahmud">
+                    </div>
+                    <div class="my-4">
+                        <div class="text-center">
+                            <h2 class="font-semibold">Shahed Al Mahmud</h2>
+                            <p class="text-slate-500">Senior Software Developer </p>
+                            <p class="font-semibold"><small>Back-End</small></p>
+                        </div>
+                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
+                        <div class="text-center my-4">
+                            <a href="http://www.github.com/shahed-webdev" target="_blank">
+                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
+                            </a>
+                            <a href="http://linkedin.com/in/shahed-al-mahmud" target="_blank">
+                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
+                            </a>
+                            <a href="https://docs.google.com/document/d/1MWCXVYZEl6aXu4zZst2fEW9qLHkViZyPUMhvJt99Xf0/edit" target="_blank">
+                                <i class="fa-solid fa-globe text-2xl h-8 rounded-full mx-3" style="color:#000000;"></i>
                             </a>
                         </div>
                     </div>
                 </section>
                 <!------- Md Moinur Mahbub ------->
-                <section class="w-72 p-4 border relative">
+                <section class="w-72 p-4 border-2 bg-gradient-to-r from-zinc-100 to-indigo-100  hover:from-indigo-100 hover:to-purple-100 relative">
                     <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
                         <img class="w-48 p-1 rounded-full" src="assets/team/amin.jpg" alt="Md Moinur Mahbub Al Amin image">
                     </div>
                     <div class="my-4">
                         <div class="text-center">
                             <h2 class="font-semibold">Md Moinur Mahbub Al Amin</h2>
-                            <p class="text-slate-500">Junior Web Developer</p>
-                        </div>
-                        <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
-                        <div class="text-center my-4">
-                            <a href="https://github.com/Mahbub091" target="_blank">
-                                <i class="fa-brands fa-github text-2xl h-8 rounded-full mx-3" style="color:#202124;"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/mahbubrahman091/" target="_blank">
-                                <i class="fa-brands fa-linkedin text-2xl h-8 rounded-full mx-3" style="color:#0A66C2;"></i>
-                            </a>
-                            <a href="https://twitter.com/tom_sqa" target="_blank">
-                                <i class="fa-brands fa-twitter text-2xl h-8 rounded-full mx-3" style="color:#1D9BF0;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                <!------- Md Moinur Mahbub ------->
-                <section class="w-72 p-4 border relative">
-                    <div class="w-48 mx-auto rounded-full bg-gradient-to-r from-indigo-600 to-purple-500">
-                        <img class="w-48 p-1 rounded-full" src="assets/team/amin.jpg" alt="Md Moinur Mahbub Al Amin image">
-                    </div>
-                    <div class="my-4">
-                        <div class="text-center">
-                            <h2 class="font-semibold">Md Moinur Mahbub Al Amin</h2>
-                            <p class="text-slate-500">Junior Web Developer</p>
+                            <p class="text-slate-500">Web Developer</p>
                         </div>
                         <div class="border-b-2 border-purple-500 w-12 mx-auto my-4"></div>
                         <div class="text-center my-4">
