@@ -27,12 +27,12 @@ const teamMember = [
         website: ''
     },
     {
-        fullName: 'Iqbal',
+        fullName: 'Asif Iqbal',
         position: 'SQA Engineer',
-        title: 'Specialized in Automation',
-        github: 'https://github.com/',
-        linkedin: 'https://www.linkedin.com/',
-        twitter: 'https://twitter.com/',
+        title: 'ISTQB Certified',
+        github: 'https://github.com/asif-iqbal-sqa',
+        linkedin: 'https://www.linkedin.com/in/asifiqbal-sqa/',
+        twitter: 'https://twitter.com/asifiqbalsqa',
         website: ''
     },
     {
@@ -60,6 +60,17 @@ const teamMember = [
         github: 'https://github.com/mdmmalamin',
         linkedin: 'https://www.linkedin.com/in/mdmmalamin',
         twitter: 'https://twitter.com/mdmmalamin',
+        website: ''
+    },
+    {
+        fullName: 'A.B. Zaman',
+        position: 'Identity Designer',
+        title: '',
+        github: 'https://github.com/',
+        linkedin: 'https://www.linkedin.com/in/abzaman/',
+        twitter: 'https://twitter.com/',
+        Dribble: 'https://dribbble.com/ab_designs__/',
+        Behance: 'https://www.behance.net/abzaman7/projects',
         website: ''
     }
 ];
